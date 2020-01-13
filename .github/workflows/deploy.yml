@@ -18,7 +18,7 @@ jobs:
           COUNT: 2
           CPU: 256
           MEMORY: 512
-          BUCKET: aws-fargate-action
+          BUCKET: seminioni-bucket
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       # - name: Install build dependencies
