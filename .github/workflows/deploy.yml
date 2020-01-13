@@ -16,4 +16,3 @@ jobs:
         account_id: ${{ secrets.AWS_ACCOUNT_ID }}
         repo: test-aws-deploy
         region: us-east-2
-        tags: latest,${{ github.sha }}
